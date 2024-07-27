@@ -4,9 +4,13 @@
 
 <mark style="color:green;">`POST`</mark> `{return_url}`
 
+
+
 If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 3 attempt.
 
 
+
+***
 
 ### Pre-Transaction
 
@@ -25,6 +29,8 @@ JSON structured request.
 ```
 
 
+
+***
 
 ### Transaction
 
