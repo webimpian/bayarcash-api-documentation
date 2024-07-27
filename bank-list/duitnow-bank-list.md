@@ -4,7 +4,9 @@
 
 <mark style="color:green;">`GET`</mark> `/api/v2/duitnow/dobw/banks`&#x20;
 
-This API will return list of bank codes for DuitNow Online Banking/Wallets (also known as DOBW) payment channel. Use this list of bank code for usage `payer_bank_code` and `payer_bank_name` in payment request.
+
+
+This API will return list of bank codes for DuitNow Online Banking/Wallets (also known as DOBW) payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
 
 Sending via command line using cURL.
 
