@@ -50,7 +50,7 @@ JSON structured request.
   "payer_name": string,
   "payer_email": string,
   "payer_bank_name": string,
-  "status": 3,
+  "status": integer,
   "status_description": string,
   "datetime": string,
   "checksum": string
