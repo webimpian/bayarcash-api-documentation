@@ -7,11 +7,11 @@
 * [FPX Bank List](bank-list/fpx-bank-list.md)
 * [DuitNow Bank List](bank-list/duitnow-bank-list.md)
 
-## Transaction <a href="#v2" id="v2"></a>
+## Transaction
 
-* [Initialize Payment](v2/initialize-payment.md)
-* [Callback](v2/callback.md)
-* [Transaction ID](v2/transaction-id.md)
+* [Initialize Payment](transaction/initialize-payment.md)
+* [Callback](transaction/callback.md)
+* [Transaction ID](transaction/transaction-id.md)
 
 ## Direct Debit
 
