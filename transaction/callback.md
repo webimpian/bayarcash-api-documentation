@@ -18,7 +18,7 @@ JSON structured request.
 
 
 
-```
+```json
 {
   "record_type": "pre_transaction",
   "transaction_id": string,
@@ -38,7 +38,7 @@ JSON structured request.
 
 
 
-```
+```json
 {
   "record_type": "transaction",
   "transaction_id": string,
