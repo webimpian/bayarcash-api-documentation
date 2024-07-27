@@ -18,48 +18,18 @@ curl -X GET https://console.bayar.cash/api/v2/transactions/trx_z88ymJ \
 
 
 
-JSON structure response.
+JSON structured response.
 
 
 
 ```json
 {
-  "data": {
-    "id": "trx_z88ymJ",
-    "created_at": "2024-06-27 17:51:59",
-    "updated_at": "2024-06-27 17:52:32",
-    "datetime": "2024-06-27 17:51:59",
-    "order_no": "24065427",
-    "buyer_name": "Ali Hanafiah",
-    "buyer_email": "alihanafiah@mail.com",
-    "buyer_tel_no": "60199009000",
-    "currency": "MYR",
-    "amount": "4.00",
-    "nett_payout_amount": "4.00",
-    "fpx_exchange_order_no": "1-719-481-919-204580",
-    "fpx_transaction_id": "2406271751590553",
-    "business_model": "B2C",
-    "buyer_bank_name": "Maybank2u",
-    "status_code": 3,
-    "status": "Successful",
-    "status_description": "Approved",
-    "return_url": "https://website.com/api/transactions?Transaction_ID=24065427",
-    "raw": [],
-    "description": null,
-    "remarks": null,
-    "payout": {
-      "ref_no": "P1718294192365977"
-    },
-    "payment_gateway": {
-      "name": "FPX",
-      "code": "fpx"
-    },
-    "portal": "Portal Website A",
-    "merchant": {
-      "name": "Syarikat Sdn. Bhd.",
-      "email": "notification@syarikat.com"
-    }
-  }
+  "payer_name": "Mohd Ali",
+  "payer_email": "mohd.ali@gmail.com",
+  "payer_telephone_number": "60199000123",
+  "order_number": "874",
+  "amount": "63.60",
+  "url": "https://console.bayar.cash/payment-intent/pi_KYdojq"
 }
 ```
 
