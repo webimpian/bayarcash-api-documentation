@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:green;">`POST`</mark> `/api/v2/payment-intents/mandate-enrollment`
+<mark style="color:green;">`POST`</mark> `/api/v2/mandates/enrollment/payment-intents`
 
 JSON structured response.
 
