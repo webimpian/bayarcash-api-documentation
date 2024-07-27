@@ -14,7 +14,7 @@ Let's jump right in!
 
 ### WordPress Plugin
 
-For WordPress user, we have prepared a plugin for WooCommerce and GiveWP which can be downloaded directly from WordPress.org repository.
+For WordPress user, we have prepared official plugin for WooCommerce and GiveWP which can be downloaded directly from WordPress.org repository.
 
 * [Bayarcash WooCommerce](https://wordpress.org/plugins/bayarcash-wc/)
 * [Bayarcash GiveWP](https://wordpress.org/plugins/bayarcash-givewp/)
