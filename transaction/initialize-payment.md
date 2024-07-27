@@ -1,10 +1,10 @@
-# Initialize Payment
+# Payment Intent
 
 ***
 
 <mark style="color:green;">`POST`</mark> `/api/v2/payment-intents`&#x20;
 
-Initialize payment request to Bayarcash. Make sure your account is enabled for selected payment channel. By default only FPX channel is activated.
+Initialize payment intent request to Bayarcash. Make sure your account is enabled for selected payment channel. By default only FPX channel is activated.
 
 
 

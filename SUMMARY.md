@@ -9,7 +9,7 @@
 
 ## Transaction
 
-* [Initialize Payment](transaction/initialize-payment.md)
+* [Payment Intent](transaction/initialize-payment.md)
 * [Callback](transaction/callback.md)
 * [Transaction ID](transaction/transaction-id.md)
 
