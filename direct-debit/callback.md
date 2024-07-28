@@ -20,21 +20,74 @@ JSON structured request.
 
 ```json
 {
-  "record_type": "authorization",
-  "transaction_id": string,
-  "mandate_id": string,
-  "exchange_reference_number": string,
-  "exchange_transaction_id": string,
-  "order_number": 100,
-  "currency": string,
-  "amount": string,
-  "payer_name": string,
-  "payer_email": string,
-  "payer_bank_name": string,
-  "status": string,
-  "status_description": string,
-  "datetime": string,
-  "checksum": string
+    "record_type": "authorization",
+    "transaction_id": string,
+    "mandate_id": string,
+    "exchange_reference_number": string,
+    "exchange_transaction_id": string,
+    "order_number": 100,
+    "currency": string,
+    "amount": string,
+    "payer_name": string,
+    "payer_email": string,
+    "payer_bank_name": string,
+    "status": string,
+    "status_description": string,
+    "datetime": string,
+    "checksum": string
+}
+```
+
+
+
+***
+
+### Bank Approval
+
+JSON structured request.
+
+
+
+```json
+{
+    "record_type": "bank_approval",
+    "approval_date": string,
+    "approval_status": string,
+    "mandate_id": string,
+    "mandate_reference_number": string,
+    "order_number": string,
+    "payer_bank_code_hashed": string,
+    "payer_bank_code": string,
+    "payer_bank_account_no": string,
+    "application_type": 01,
+    "checksum": string
+}
+```
+
+
+
+***
+
+### Transaction
+
+JSON structured request.
+
+
+
+```json
+{
+    "record_type": "transaction",
+    "batch_number": string,
+    "mandate_id": string,
+    "mandate_reference_number": string,
+    "transaction_id": string,
+    "datetime": string,
+    "reference_number": string,
+    "amount": 100,
+    "status": string,
+    "status_description": string,
+    "cycle": 1,
+    "checksum": string
 }
 ```
 
