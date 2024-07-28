@@ -8,7 +8,9 @@ To ensure a secured request to Bayarcash API, you need to generate a checksum va
 
 You can generate your API secret key from Bayarcash portal at profile page.
 
-{% hint style="info" %}
+
+
+{% hint style="success" %}
 Note: The checksum value and checksum validation are optional, but it is recommended for enhanced security.
 {% endhint %}
 
@@ -17,6 +19,8 @@ Note: The checksum value and checksum validation are optional, but it is recomme
 ***
 
 ### Payment Intent Request
+
+
 
 ```php
 <?php
@@ -35,3 +39,4 @@ Note: The checksum value and checksum validation are optional, but it is recomme
     
     $checksum = hash_hmac('sha256', $stringPayload, $secretKey); // Generate HMAC SHA256 checksum
 ```
+
