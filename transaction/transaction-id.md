@@ -4,7 +4,9 @@
 
 <mark style="color:green;">`GET`</mark> `api/v2/transactions/{transaction_id}`
 
-At any given time, you can request a transaction ID to check on the status. It will return the transaction object.
+
+
+At any given time, you can request a transaction ID to check on the current status. It will return the transaction object.
 
 Sending via command line using cURL.
 
