@@ -4,8 +4,6 @@
 
 
 
-### Transaction Callback
-
 Sample code using PHP to validate transaction callback checksum.
 
 

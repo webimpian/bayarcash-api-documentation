@@ -4,8 +4,6 @@
 
 
 
-### Pre-Transaction Callback
-
 Sample code using PHP to validate pre-transaction callback checksum.
 
 
