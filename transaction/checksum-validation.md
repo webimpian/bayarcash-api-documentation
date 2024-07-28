@@ -10,6 +10,14 @@ You can generate your API secret key from Bayarcash portal at profile page.
 
 
 
+* Ensure the API secret key is securely stored and not exposed in your client-side code.
+* Always verify the checksum in the callback data to ensure data integrity and authenticity,
+* The `ksort` function sorts the payload data by key, which is essential for checksum consistency.
+* The `implode` function concatenates the sorted payload values using a delimiter (in this case is |), forming the string for the checksum calculation.
+* The `hash_hmac` function generates the checksum using the SHA256 algorithm and your secret key.
+
+
+
 {% hint style="success" %}
 Note: The checksum value and checksum validation are optional, but it is recommended for enhanced security.
 {% endhint %}
@@ -107,3 +115,4 @@ Sample code using PHP to validate transaction callback checksum.
     
     $validResponse = hash_hmac('sha256', $payloadString, $secretKey) === $callbackChecksum;  // Validate checksum
 ```
+
