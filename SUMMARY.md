@@ -10,8 +10,8 @@
 ## Transaction
 
 * [Payment Intent](transaction/initialize-payment.md)
-* [Checksum Validation](transaction/checksum-validation.md)
 * [Callback](transaction/callback.md)
+* [Checksum Validation](transaction/checksum-validation.md)
 * [Transaction ID](transaction/transaction-id.md)
 
 ## Direct Debit
