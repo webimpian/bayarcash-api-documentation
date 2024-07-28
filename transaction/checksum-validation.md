@@ -20,6 +20,8 @@ Note: The checksum value and checksum validation are optional, but it is recomme
 
 ### Payment Intent Request
 
+Sample code using PHP to validate checksum.
+
 
 
 ```php
