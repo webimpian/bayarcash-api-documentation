@@ -10,6 +10,7 @@
 ## Transaction
 
 * [Payment Intent](transaction/initialize-payment.md)
+* [Checksum Validation](transaction/checksum-validation.md)
 * [Callback](transaction/callback.md)
 * [Transaction ID](transaction/transaction-id.md)
 
