@@ -13,6 +13,8 @@
 * [Callback](transaction/callback.md)
 * [Checksum Validation](transaction/checksum-validation/README.md)
   * [Payment Intent Request](transaction/checksum-validation/payment-intent-request.md)
+  * [Pre-Transaction Callback](transaction/checksum-validation/pre-transaction-callback.md)
+  * [Transaction Callback](transaction/checksum-validation/transaction-callback.md)
 * [Transaction ID](transaction/transaction-id.md)
 
 ## Direct Debit
