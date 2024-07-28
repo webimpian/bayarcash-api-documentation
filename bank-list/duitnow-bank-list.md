@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:green;">`GET`</mark> `/api/v2/duitnow/dobw/banks`&#x20;
+<mark style="color:blue;">`GET`</mark> `/api/v2/duitnow/dobw/banks`&#x20;
 
 
 

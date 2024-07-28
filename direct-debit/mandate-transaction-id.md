@@ -2,4 +2,4 @@
 
 ***
 
-<mark style="color:green;">`GET`</mark> `/api/v2/mandates/transactions/{transaction_id}`
+<mark style="color:blue;">`GET`</mark> `/api/v2/mandates/transactions/{transaction_id}`
