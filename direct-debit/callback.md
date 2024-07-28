@@ -14,7 +14,7 @@ If your server accept a callback from Bayarcash, make sure the response return `
 
 ### Authorization
 
-JSON structured request.
+JSON structured request. Applicable to enrollment, maintenance and termination.
 
 
 
@@ -44,7 +44,7 @@ JSON structured request.
 
 ### Bank Approval
 
-JSON structured request.
+JSON structured request. Applicable to enrollment, maintenance and termination.
 
 
 
@@ -70,7 +70,7 @@ JSON structured request.
 
 ### Transaction
 
-JSON structured request.
+JSON structured request. Only applicable to enrollment.
 
 
 
