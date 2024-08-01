@@ -43,7 +43,7 @@ JSON structured response.
   "return_url": "https://website.net/api/return_url",
   "metadata": null,
   "payout": {
-    "ref_no": "P1685011113148329"
+    "reference_number": "P1685011113148329"
   },
   "payment_gateway": {
     "name": "FPX",
