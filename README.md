@@ -12,6 +12,14 @@ Let's jump right in!
 
 ***
 
+### Sandbox
+
+For testing & integration purpose, you might use our sandbox environment at [https://console.bayarcash-sandbox.com](https://console.bayarcash-sandbox.com).
+
+
+
+***
+
 ### WordPress Plugin
 
 For WordPress user, we have prepared official plugin for WooCommerce and GiveWP which can be downloaded directly from WordPress.org repository.
