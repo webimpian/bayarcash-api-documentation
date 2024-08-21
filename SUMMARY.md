@@ -32,5 +32,6 @@
 * [Bank Status](https://status.bayar.cash)
 * [e-Mandate Checker](https://mandate.bayar.cash)
 * [Transaction Checker](https://check.bayar.cash)
+* [Payment Link](https://bayarcash.link)
 * [Facebook @mybayarcash](https://facebook.com/mybayarcash)
 * [GitHub @webimpian](https://github.com/webimpian)
