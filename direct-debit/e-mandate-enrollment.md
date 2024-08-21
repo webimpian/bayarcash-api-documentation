@@ -38,9 +38,9 @@ Sending via command line using cURL.
 
 ```markup
 curl -X GET https://console.bayar.cash/api/v2/mandates \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <Personal_Access_Token>' \
-  -D '{
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer <Personal_Access_Token>' \
+  --data-raw '{
           "portal_key": string,
           "order_number": DD001,
           "amount": 100,

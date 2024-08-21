@@ -24,9 +24,9 @@ Sending via command line using cURL.
 
 ```markup
 curl -X GET https://console.bayar.cash/api/v2/payment-intents \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <Personal_Access_Token>' \
-  -D '{
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer <Personal_Access_Token>' \
+  --data-raw '{
         "payment_channel": 5,
         "portal_key": string,
         "order_number": string,
