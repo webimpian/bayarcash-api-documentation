@@ -23,7 +23,7 @@ Sending via command line using cURL.
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/payment-intents \
+curl -X POST https://console.bayar.cash/api/v2/payment-intents \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>' \
   --data-raw '{
