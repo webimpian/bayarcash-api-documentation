@@ -16,6 +16,7 @@ Sample code using PHP to validate pre-transaction callback checksum.
     
     $payloadData = [
         "record_type"               => $callbackData['record_type'],
+        "transaction_id"            => $callbackData['transaction_id'],
         "exchange_reference_number" => $callbackData['exchange_reference_number'],
         "order_number"              => $callbackData['order_number'],
     ];
