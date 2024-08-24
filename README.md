@@ -12,9 +12,11 @@ Let's jump right in!
 
 ***
 
-### Sandbox
+### Sandbox & Production
 
 For testing & integration purpose, you might use our sandbox environment at [https://console.bayarcash-sandbox.com](https://console.bayarcash-sandbox.com).
+
+Please note our production URL is [https://console.bayar.cash](https://console.bayar.cash).
 
 
 
