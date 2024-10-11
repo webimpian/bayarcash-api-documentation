@@ -69,8 +69,13 @@ JSON structured response.
 Make sure you have activate below payment channel before making any request to our endpoint.
 
 * 1 = FPX (default payment channel)
-* 2 = FPX Line of Credit
-* 3 =
-* 4 =
+* 2 = Manual Bank Transfer
+* 3 = Direct Debit (Enrollment, Maintenance & Termination via FPX)
+* 4 = FPX Line of Credit
 * 5 = DuitNow Online Banking/Wallets
+* 6 = DuitNow QR
+* 7 = SPayLater (BNPL from Shopee)
+* 8 = Boost PayFlex (BNPL from Boost)
+* 9 = QRIS Indonesia Online Banking
+* 10 = QRIS Indonesia eWallet
 
