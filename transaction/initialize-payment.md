@@ -60,3 +60,19 @@ JSON structured response.
 }
 ```
 
+
+
+***
+
+
+
+### Payment Channel
+
+Make sure you have activate below payment channel before making any request to our endpoint.
+
+* 1 = FPX (default payment channel)
+* 2 = FPX Line of Credit
+* 3 =
+* 4 =
+* 5 = DuitNow Online Banking/Wallets
+
