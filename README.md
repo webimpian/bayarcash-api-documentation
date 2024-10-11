@@ -22,12 +22,16 @@ Please note our production URL is [https://console.bayar.cash](https://console.b
 
 ***
 
-### WordPress Plugin
+### Plugin
 
-For WordPress user, we have prepared official plugin for WooCommerce and GiveWP which can be downloaded directly from WordPress.org repository.
+For WordPress user, we have prepared few official plugin which can be downloaded directly from WordPress.org repository.
 
 * [Bayarcash WooCommerce](https://wordpress.org/plugins/bayarcash-wc/)
 * [Bayarcash GiveWP](https://wordpress.org/plugins/bayarcash-givewp/)
+* [Bayarcash Easy Digital Downloads (EDD)](https://wordpress.org/plugins/bayarcash-for-easy-digital-downloads/)
+* [BCL Payment Link](https://wordpress.org/plugins/bcl-payment-link/)
+
+For WHMCS, official plugin can be download from their marketplace [here - Bayarcash WHMCS](https://marketplace.whmcs.com/product/7531-bayarcash). For HostBill, please refer to our account manager for file.
 
 
 
