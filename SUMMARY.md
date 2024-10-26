@@ -7,6 +7,10 @@
 * [FPX Bank List](bank-list/fpx-bank-list.md)
 * [DuitNow Bank List](bank-list/duitnow-bank-list.md)
 
+## Portal
+
+* [Portal](portal/readme.md)
+
 ## Transaction
 
 * [Payment Intent](transaction/initialize-payment.md)
@@ -29,9 +33,5 @@
 ## Sitelink
 
 * [Merchant Dashboard](https://console.bayar.cash)
-* [Bank Status](https://status.bayar.cash)
-* [e-Mandate Checker](https://mandate.bayar.cash)
-* [Transaction Checker](https://check.bayar.cash)
-* [BCL Payment Link](https://bcl.my)
 * [Facebook @mybayarcash](https://facebook.com/mybayarcash)
 * [GitHub @webimpian](https://github.com/webimpian)
