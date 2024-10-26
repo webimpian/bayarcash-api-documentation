@@ -24,7 +24,7 @@ Please note our production URL is [https://console.bayar.cash](https://console.b
 
 ### Plugin
 
-For WordPress user, we have prepared few official plugin which can be downloaded directly from WordPress.org repository.
+For WordPress user, we have prepared few official plugin which can be downloaded directly from [our WordPress.org repository account](https://profiles.wordpress.org/webimpian/#content-plugins).
 
 * [Bayarcash WooCommerce](https://wordpress.org/plugins/bayarcash-wc/)
 * [Bayarcash GiveWP](https://wordpress.org/plugins/bayarcash-givewp/)
