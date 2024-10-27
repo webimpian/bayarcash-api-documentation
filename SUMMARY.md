@@ -9,7 +9,7 @@
 
 ## Portal
 
-* [Portal](portal/readme.md)
+* [Portal](portal/list.md)
 
 ## Transaction
 
@@ -29,6 +29,10 @@
 * [Callback](direct-debit/callback.md)
 * [Mandate ID](direct-debit/mandate-id.md)
 * [Mandate Transaction ID](direct-debit/mandate-transaction-id.md)
+
+## Enterprise Partner
+
+* [Merchant Registration](enterprise-partner/merchant-registration.md)
 
 ## Sitelink
 
