@@ -33,6 +33,9 @@
 ## Enterprise Partner
 
 * [Merchant Registration](enterprise-partner/merchant-registration.md)
+* [Payout Bank List](enterprise-partner/payout-bank-list.md)
+* [Merchant Status](enterprise-partner/merchant-status.md)
+* [Merchant Settlement Summary](enterprise-partner/merchant-settlement-summary.md)
 
 ## Sitelink
 
