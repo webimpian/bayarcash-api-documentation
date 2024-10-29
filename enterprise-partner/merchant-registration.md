@@ -11,7 +11,7 @@ Sending via command line using cURL.
 
 
 ```markup
-curl -X POST https://console.bayar.cash/api/merchant-registrations \
+curl -X POST https://console.bayar.cash/api/v2/merchant-registrations \
   --header 'Content-Type: application/json' \
   --header 'X-API-Key: <Enterprise_Partner_API_Key>' \
   --data-raw '{
