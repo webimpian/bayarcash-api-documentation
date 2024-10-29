@@ -13,7 +13,7 @@ Sending via command line using cURL.
 ```markup
 curl -X POST https://console.bayar.cash/api/merchant-registrations \
   --header 'Content-Type: application/json' \
-  --header 'X-API-Key: <Enterprise_Partner_Merchant_API_Key>' \
+  --header 'X-API-Key: <Enterprise_Partner_API_Key>' \
   --data-raw '{
         "organisation_name": string,
         "organisation_registration_number": string,
