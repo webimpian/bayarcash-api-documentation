@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:green;">`POST`</mark> `/api/merchant-registrations`
+<mark style="color:green;">`POST`</mark> `/api/v2/merchant-registrations`
 
 
 
