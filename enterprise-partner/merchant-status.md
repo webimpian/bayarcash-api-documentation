@@ -8,10 +8,9 @@
 
 Check for merchant registration status. All registration will be approved manually by our account manager. Registration status consist of:
 
-* Incomplete
-* Pending Approval
-* Approved
-* Rejected
+
+
+<table><thead><tr><th width="227">Status</th><th>Description</th></tr></thead><tbody><tr><td>Incomplete</td><td>Our system successfully recorded the registration. Merchant can start collect the payment but the payout will be put on hold until merchant complete the submission of needed documents.</td></tr><tr><td>Pending Approval</td><td>Merchant submitted the KYC/KYB documents &#x26; our account manager is reviewing.</td></tr><tr><td>Approved</td><td>Merchant registration is approved &#x26; payout is processing.</td></tr><tr><td>Rejected</td><td>Merchant registration is rejected. Further details, please contact our account manager.</td></tr></tbody></table>
 
 
 
