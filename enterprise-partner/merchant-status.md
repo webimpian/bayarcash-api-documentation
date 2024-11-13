@@ -14,6 +14,10 @@ Check for merchant registration status. All registration will be approved manual
 
 
 
+JSON structured response.
+
+
+
 ```json
 {
     "id": "mr_3qjZwq",
