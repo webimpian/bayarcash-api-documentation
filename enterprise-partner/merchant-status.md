@@ -6,7 +6,12 @@
 
 
 
-Check for merchant registration status
+Check for merchant registration status. All registration will be approved manually by our account manager. Registration status consist of:
+
+* Incomplete
+* Pending Approval
+* Approved
+* Rejected
 
 
 
