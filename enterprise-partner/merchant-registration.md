@@ -37,7 +37,7 @@ JSON structured response.
 ```json
 {
     "success": true,
-    "message": "Merchant registration success."
+    "message": "Merchant registration success.",
     "data": {
         "id": "mr_3qjZwq",
         "name": "Mohd Ali Bin Seman",
@@ -46,7 +46,7 @@ JSON structured response.
         "registration_status": "Incomplete",
         "login_token": "$778374mifnminvrunvrvmrmri997uIO"
         "user_profiles": {
-            "organisation_name": "Nama Syarikat Sdn. Bhd."
+            "organisation_name": "Nama Syarikat Sdn. Bhd.",
             "organisation_registration_number": "123456789-H",
             "contact_first_name": null,
             "contact_last_name": null,
@@ -56,7 +56,7 @@ JSON structured response.
             "organisation_bank_name": "Affin Bank Berhad",
             "organisation_bank_account_number": "221233898832",
             "organisation_bank_account_holder": "Nama Syarikat Sdn. Bhd." 
-        }
+        },
         "active_package_subscription": {
             "reference_number": "112234434TE",
             "package": {
@@ -67,7 +67,7 @@ JSON structured response.
             "expiry_date": "2025-11-13",
             "minimum_balance": "RM50.00",
             "payouts_schedule": "Payout next working day T+1 starting 01.00 AM"
-        }
+        },
         "portal": {
             "name": "Default",
             "api_key": "3888499948593892894",
