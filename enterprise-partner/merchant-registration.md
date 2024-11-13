@@ -44,7 +44,7 @@ JSON structured response.
         "email": "namasyarikat@gmail.com",
         "referral_id": null,
         "registration_status": "Incomplete",
-        "login_token": "$778374mifnminvrunvrvmrmri997uIO"
+        "login_token": "$778374mifnminvrunvrvmrmri997uIO",
         "user_profiles": {
             "organisation_name": "Nama Syarikat Sdn. Bhd.",
             "organisation_registration_number": "123456789-H",
