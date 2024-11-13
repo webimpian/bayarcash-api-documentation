@@ -19,7 +19,7 @@ curl -X POST https://console.bayar.cash/api/v2/merchant-registrations \
   --data-raw '{
         "organisation_name": string,
         "organisation_registration_number": string,
-        "organisation_bank_id": integer,
+        "organisation_bank_id": integer, // Please refer Payout Bank List
         "organisation_bank_account_holder": string,
         "organisation_bank_account_number": string,
         "login_name": string,
