@@ -2,6 +2,12 @@
 
 ***
 
+<mark style="color:blue;">`GET`</mark> `/api/v2/merchant-registrations/{id}`
+
+
+
+Check for merchant registration status
+
 
 
 ```json
