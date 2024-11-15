@@ -6,7 +6,7 @@
 
 
 
-Please note this section only for our Enterprise Partner. Please refer to your account manager for further details.
+Please note this section only for **Bayarcash Enterprise Partner**. Please refer to your account manager for further details.
 
 Sending via command line using cURL.
 
