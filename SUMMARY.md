@@ -9,7 +9,7 @@
 
 ## Portal
 
-* [Portal](portal/list.md)
+* [Portal List](portal/list.md)
 
 ## Transaction
 
