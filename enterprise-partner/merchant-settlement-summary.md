@@ -6,6 +6,10 @@
 
 
 
+Enterprise partners are able to retrieve settlement summary for all merchants registered from their API key.
+
+
+
 JSON structured response.
 
 
