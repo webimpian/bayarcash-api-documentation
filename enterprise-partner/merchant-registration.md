@@ -16,6 +16,7 @@ Sending via command line using cURL.
 curl -X POST https://console.bayar.cash/api/v2/merchant-registrations \
   --header 'Content-Type: application/json' \
   --header 'X-API-Key: <Enterprise_Partner_API_Key>' \
+  --header 'Authorization: Bearer <Personal_Access_Token>' \
   --data-raw '{
         "organisation_name": string,
         "organisation_registration_number": string,
