@@ -6,7 +6,17 @@
 
 
 
-If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 3 attempt.
+If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 3 attempt. Below are the status value & its corresponding label.
+
+
+
+| Status Code | Status Description |
+| ----------- | ------------------ |
+| 0           | New                |
+| 1           | Pending            |
+| 2           | Failed             |
+| 3           | Success            |
+| 4           | Cancelled          |
 
 
 
