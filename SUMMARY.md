@@ -15,6 +15,7 @@
 ## Payment
 
 * [Payment Intent](payment/payment-intent.md)
+* [Payment Channel](payment/payment-channel.md)
 * [Checksum Validation](payment/checksum-validation.md)
 
 ## Transaction
