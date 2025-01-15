@@ -1,8 +1,11 @@
-# DuitNow Bank List
+# DuitNow
 
 ***
 
-<mark style="color:blue;">`GET`</mark> `/api/v2/duitnow/dobw/banks`&#x20;
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/duitnow/dobw/banks`\
+<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/duitnow/dobw/banks`
+
+***
 
 
 
