@@ -9,7 +9,7 @@
 
 
 
-This API will return list of bank codes for FPX and Direct Debit payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
+This API will return list of bank codes for FPX (B2C) and Direct Debit payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
 
 Sending via command line using cURL.
 
