@@ -2,11 +2,14 @@
 
 ***
 
-<mark style="color:blue;">`GET`</mark> `/api/v2/mandates/transactions/{transaction_id}`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/mandates/transactions/{transaction_id}`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/mandates/transactions/{transaction_id}`
+
+***
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 
