@@ -14,9 +14,17 @@ Let's jump right in!
 
 ### Sandbox & Production
 
-For testing & integration purpose, you might use our sandbox environment at [https://console.bayarcash-sandbox.com](https://console.bayarcash-sandbox.com).
+For testing & integration purpose, you might use our sandbox environment at:
 
-Please note our production URL is [https://console.bayar.cash](https://console.bayar.cash).
+* [https://console.bayarcash-sandbox.com](https://console.bayarcash-sandbox.com)
+* API v2 - console.bayarcash-sandbox.com/api/v2
+* API v3 - api.console.bayarcash-sandbox.com/v3
+
+Our production URL are:
+
+* [https://console.bayar.cash](https://console.bayar.cash)
+* API v2 - console.bayar.cash/api/v2
+* API v3 - api.console.bayar.cash/v3
 
 
 
