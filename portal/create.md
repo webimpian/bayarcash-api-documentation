@@ -9,5 +9,5 @@
 
 
 
-Create new portal via API. Example of send POST request with cURL.
+Create new portal via API. Example of sending POST request with cURL.
 
