@@ -2,25 +2,28 @@
 
 ***
 
-<mark style="color:blue;">`GET`</mark> `api/v2/transactions/{transaction_id}`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/transactions/{transaction_id}`\
+<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/transactions/{transaction_id}`
+
+***
 
 
 
 At any given time, you can request a transaction ID to check on the current status. It will return the transaction object.
 
-Sending via command line using cURL.
+Example of sending GET request with cURL.
 
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/transactions/trx_z88ymJ \
+curl -X GET https://api.console.bayar.cash/v3/transactions/trx_z88ymJ \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 

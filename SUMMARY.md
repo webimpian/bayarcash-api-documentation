@@ -47,6 +47,4 @@
 
 ## Sitelink
 
-* [Merchant Dashboard](https://console.bayar.cash)
-* [Facebook @mybayarcash](https://facebook.com/mybayarcash)
 * [GitHub @webimpian](https://github.com/webimpian)
