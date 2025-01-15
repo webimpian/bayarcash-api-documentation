@@ -44,7 +44,8 @@
 * [Merchant Registration](enterprise-partner/merchant-registration.md)
 * [Payout Bank List](enterprise-partner/payout-bank-list.md)
 * [Merchant Status](enterprise-partner/merchant-status.md)
-* [Merchant Settlement Summary](enterprise-partner/merchant-settlement-summary.md)
+* [Merchant Payout ID](enterprise-partner/merchant-payout-id.md)
+* [All Merchant Payouts](enterprise-partner/all-merchant-payouts.md)
 
 ## Sitelink
 
