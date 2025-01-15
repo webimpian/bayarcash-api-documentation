@@ -16,7 +16,6 @@
 
 * [Payment Intent](payment/payment-intent.md)
 * [Payment Channel](payment/payment-channel.md)
-* [Checksum Validation](payment/checksum-validation.md)
 
 ## Transaction
 
@@ -25,6 +24,13 @@
   * [Pre-Transaction Callback](transaction/checksum-validation/pre-transaction-callback.md)
   * [Transaction Callback](transaction/checksum-validation/transaction-callback.md)
 * [Transaction ID](transaction/transaction-id.md)
+
+## Checksum
+
+* [Checksum Validation](checksum/checksum-validation.md)
+* [Payment Intent](checksum/payment-intent.md)
+* [Pre-Transaction Callback](checksum/pre-transaction-callback.md)
+* [Transaction Callback](checksum/transaction-callback.md)
 
 ## Direct Debit
 
