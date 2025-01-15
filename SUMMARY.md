@@ -20,9 +20,6 @@
 ## Transaction
 
 * [Callback](transaction/callback.md)
-* [Checksum Validation](transaction/checksum-validation/README.md)
-  * [Pre-Transaction Callback](transaction/checksum-validation/pre-transaction-callback.md)
-  * [Transaction Callback](transaction/checksum-validation/transaction-callback.md)
 * [Transaction ID](transaction/transaction-id.md)
 
 ## Checksum
