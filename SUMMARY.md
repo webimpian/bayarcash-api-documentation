@@ -14,8 +14,9 @@
 
 ## Payment
 
-* [Payment Intent](payment/payment-intent.md)
 * [Payment Channel](payment/payment-channel.md)
+* [Payment Intent](payment/payment-intent.md)
+* [Payment Intent ID](payment/payment-intent-id.md)
 
 ## Transaction
 
