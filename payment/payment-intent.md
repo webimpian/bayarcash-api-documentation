@@ -2,7 +2,10 @@
 
 ***
 
-<mark style="color:green;">`POST`</mark> `/api/v2/payment-intents`&#x20;
+<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `console.bayar.cash/api/v2/payment-intents`\
+<mark style="color:red;">v3</mark>  <mark style="color:green;">`POST`</mark>  `api.console.bayar.cash/v3/payment-intents`
+
+***
 
 
 
@@ -18,7 +21,7 @@ Initialize payment intent request to Bayarcash. Make sure your account is enable
 
 
 
-Sending via command line using cURL.
+Example of sending POST request with cURL.
 
 
 

@@ -12,9 +12,12 @@
 * [Portal List](portal/list.md)
 * [Create Portal](portal/create.md)
 
+## Payment
+
+* [Payment Intent](payment/payment-intent.md)
+
 ## Transaction
 
-* [Payment Intent](transaction/initialize-payment.md)
 * [Callback](transaction/callback.md)
 * [Checksum Validation](transaction/checksum-validation/README.md)
   * [Payment Intent Request](transaction/checksum-validation/payment-intent-request.md)
