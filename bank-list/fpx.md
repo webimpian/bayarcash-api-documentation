@@ -1,9 +1,9 @@
-# FPX Bank List
+# FPX
 
 ***
 
-<mark style="color:red;">v2</mark> <mark style="color:blue;">`GET`</mark> `console.bayar.cash/api/v2/banks`\
-<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/banks`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/banks`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/banks`
 
 ***
 
@@ -16,7 +16,7 @@ Sending via command line using cURL.
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/banks \
+curl -X GET https://api.console.bayar.cash/v3/banks \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```

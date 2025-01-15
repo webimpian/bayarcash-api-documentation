@@ -16,7 +16,7 @@ Sending via command line using cURL.
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/duitnow/dobw/banks \
+curl -X GET https://api.console.bayar.cash/v3/duitnow/dobw/banks \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
