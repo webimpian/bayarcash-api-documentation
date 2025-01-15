@@ -5,6 +5,8 @@
 <mark style="color:red;">v2</mark> <mark style="color:blue;">`GET`</mark> `console.bayar.cash/api/v2/banks`\
 <mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/banks`
 
+***
+
 
 
 This API will return list of bank codes for FPX and Direct Debit payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
