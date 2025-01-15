@@ -48,7 +48,7 @@ curl -X POST https://console.bayar.cash/api/v2/payment-intents \
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 
