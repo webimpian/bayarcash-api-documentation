@@ -5,7 +5,7 @@
 ## Bank List
 
 * [FPX](bank-list/fpx.md)
-* [DuitNow](bank-list/duitnow.md)
+* [DuitNow Online Banking/Wallets](bank-list/duitnow-online-banking-wallets.md)
 
 ## Portal
 
