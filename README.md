@@ -34,7 +34,7 @@ Our production URL are:
 
 For WordPress user, we have prepared few official plugin which can be downloaded directly from [our WordPress.org repository account](https://profiles.wordpress.org/webimpian/#content-plugins).
 
-List of all plugin & integration, please refer here [plugin.bayarcash.com](https://plugin.bayarcash.com/).
+List of all plugin & integration, please refer here [plugin.bayarcash.com](https://plugin.bayarcash.com/). Demo usage of Bayarcash can also be viewed here [bayarcash-demo.com](https://bayarcash-demo.com/).
 
 
 
