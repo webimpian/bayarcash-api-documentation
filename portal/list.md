@@ -1,8 +1,11 @@
-# Portal
+# Portal List
 
 ***
 
-<mark style="color:blue;">`GET`</mark> `api/v2/portals`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/portals`\
+<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/portals`
+
+***
 
 
 
@@ -11,7 +14,7 @@ Retrieve list of portal in Bayarcash. Sending via command line using cURL.
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/portals \
+curl -X GET https://api.console.bayar.cash/v3/portals \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
@@ -53,8 +56,8 @@ JSON structured response.
         }
     ],
     "links": {
-        "first": "https://console.bayar.cash/api/v2/portals?page=1",
-        "last": "https://console.bayar.cash/api/v2/portals?page=1",
+        "first": "https://api.console.bayar.cash/v3/portals?page=1",
+        "last": "https://api.console.bayar.cash/v3/portals?page=1",
         "prev": null,
         "next": null
     },
@@ -69,7 +72,7 @@ JSON structured response.
                 "active": false
             },
             {
-                "url": "https://console.bayar.cash/api/v2/portals?page=1",
+                "url": "https://api.console.bayar.cash/v3/portals?page=1",
                 "label": "1",
                 "active": true
             },
@@ -79,7 +82,7 @@ JSON structured response.
                 "active": false
             }
         ],
-        "path": "https://console.bayar.cash/api/v2/portals",
+        "path": "https://api.console.bayar.cash/v3/portals",
         "per_page": 15,
         "to": 2,
         "total": 2,
