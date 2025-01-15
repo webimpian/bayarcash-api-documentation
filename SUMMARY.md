@@ -4,8 +4,8 @@
 
 ## Bank List
 
-* [FPX Bank List](bank-list/fpx-bank-list.md)
-* [DuitNow Bank List](bank-list/duitnow-bank-list.md)
+* [FPX](bank-list/fpx.md)
+* [DuitNow](bank-list/duitnow.md)
 
 ## Portal
 
