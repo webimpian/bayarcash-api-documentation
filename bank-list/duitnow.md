@@ -11,7 +11,7 @@
 
 This API will return list of bank codes for DuitNow Online Banking/Wallets (also known as DOBW or DuitNow OBW) payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
 
-Sending via command line using cURL.
+Example of send GET request with cURL.
 
 
 
@@ -23,7 +23,7 @@ curl -X GET https://api.console.bayar.cash/v3/duitnow/dobw/banks \
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 

@@ -9,7 +9,7 @@
 
 
 
-Retrieve list of portal in Bayarcash. Sending via command line using cURL.
+Retrieve list of portal in Bayarcash. Example of send GET request with cURL.
 
 
 
@@ -21,7 +21,7 @@ curl -X GET https://api.console.bayar.cash/v3/portals \
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 
