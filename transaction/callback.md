@@ -27,7 +27,7 @@ If your server accept a callback from Bayarcash, make sure the response return `
 
 ### Pre-Transaction
 
-JSON structured request.
+Example of JSON structured request.
 
 
 
@@ -47,7 +47,7 @@ JSON structured request.
 
 ### Transaction
 
-JSON structured request.
+Example of JSON structured request.
 
 
 
@@ -66,6 +66,31 @@ JSON structured request.
     "status": integer,
     "status_description": string,
     "datetime": string,
+    "checksum": string
+}
+```
+
+
+
+***
+
+### Transaction Receipt
+
+Example of JSON structured request.
+
+
+
+```json
+{
+    "transaction_id": string,
+    "exchange_reference_number": string,
+    "exchange_transaction_id": string,
+    "order_number": string,
+    "currency": string,
+    "amount": string,
+    "payer_bank_name": string,
+    "status": string,
+    "status_description": string,
     "checksum": string
 }
 ```
