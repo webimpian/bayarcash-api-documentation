@@ -2,11 +2,14 @@
 
 ***
 
-<mark style="color:green;">`POST`</mark> `{return_url}`
+<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `{return_url}` \
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `{return_url}`
+
+***
 
 
 
-If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 3 attempt.
+If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes). Below are the status value & its corresponding label.
 
 
 
@@ -14,7 +17,7 @@ If your server accept a callback from Bayarcash, make sure the response return `
 
 ### Authorization
 
-JSON structured request. Applicable to enrollment, maintenance and termination.
+Example of JSON structured request. Applicable to enrollment, maintenance and termination.
 
 
 
@@ -44,7 +47,7 @@ JSON structured request. Applicable to enrollment, maintenance and termination.
 
 ### Bank Approval
 
-JSON structured request. Applicable to enrollment, maintenance and termination.
+Example of JSON structured request. Applicable to enrollment, maintenance and termination.
 
 
 
@@ -70,7 +73,7 @@ JSON structured request. Applicable to enrollment, maintenance and termination.
 
 ### Transaction
 
-JSON structured request. Only applicable to enrollment.
+Example of JSON structured request. Only applicable to enrollment.
 
 
 
