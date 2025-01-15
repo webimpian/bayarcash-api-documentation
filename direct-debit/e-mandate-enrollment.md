@@ -16,11 +16,14 @@ layout:
 
 ***
 
-<mark style="color:green;">`POST`</mark> `/api/v2/mandates`
+<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `console.bayar.cash/api/v2/mandates`\
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `api.console.bayar.cash/v3/mandates`
+
+***
 
 
 
-Initialize enrollment request to Bayarcash. Make sure your account is enabled for DirectDebit payment channel.
+Initialize enrollment request to Bayarcash. Make sure your account is enabled for Direct Debit payment channel.
 
 
 
@@ -32,12 +35,12 @@ Initialize enrollment request to Bayarcash. Make sure your account is enabled fo
 
 
 
-Sending via command line using cURL.
+Example of sending POST request with cURL.
 
 
 
 ```markup
-curl -X GET https://console.bayar.cash/api/v2/mandates \
+curl -X POST https://api.console.bayar.cash/v3/mandates \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>' \
   --data-raw '{
@@ -63,7 +66,7 @@ curl -X GET https://console.bayar.cash/api/v2/mandates \
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 
