@@ -20,6 +20,8 @@ At any given time, you can request a transaction to check on the current status.
 | `exchange_reference_number` |                                                                                                                    |
 | `payer_email`               |                                                                                                                    |
 
+***
+
 
 
 Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
