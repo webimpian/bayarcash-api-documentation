@@ -2,8 +2,9 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `{return_url}`\
-<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `{return_url}`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `{return_url}`\
+<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `{return_url}`\
+<mark style="color:red;">v3</mark>  <mark style="color:green;">`POST`</mark>  `{callback_url}`
 
 ***
 
