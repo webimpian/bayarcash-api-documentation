@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/transactions`
+<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/transactions?{query_parameter}`
 
 ***
 
@@ -29,7 +29,7 @@ Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
 
 ```markup
-curl -X GET https://api.console.bayar.cash/v3/transactions \
+curl -X GET https://api.console.bayar.cash/v3/transactions?order_number=24354620275 \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
