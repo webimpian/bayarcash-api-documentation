@@ -8,7 +8,19 @@
 
 
 
-At any given time, you can request a transaction to check on the current status. It will return the transaction object.
+At any given time, you can request a transaction to check on the current status. It will return the transaction object. Available query parameters are as below:
+
+
+
+| Name                        | Description                                                                                                        |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `order_number`              |                                                                                                                    |
+| `status`                    | Please [refer this page](https://api.webimpian.support/bayarcash/transaction/callback) for status code             |
+| `payment_channel`           | Please [refer this page](https://api.webimpian.support/bayarcash/payment/payment-channel) for payment channel code |
+| `exchange_reference_number` |                                                                                                                    |
+| `payer_email`               |                                                                                                                    |
+
+
 
 Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
