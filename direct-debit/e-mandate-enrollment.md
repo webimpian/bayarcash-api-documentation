@@ -35,7 +35,7 @@ Initialize enrollment request to Bayarcash. Make sure your account is enabled fo
 
 
 
-Example of sending POST request with cURL.
+Example of sending <mark style="color:green;">`POST`</mark> request with cURL.
 
 
 

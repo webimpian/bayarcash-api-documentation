@@ -10,7 +10,7 @@
 
 At any given time, you can request a transaction to check on the current status. It will return the transaction object.
 
-Example of sending GET request with cURL.
+Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
 
 

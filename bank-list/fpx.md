@@ -11,7 +11,7 @@
 
 This API will return list of bank codes for FPX (B2C) and Direct Debit payment channel. Use this list for usage of `payer_bank_code` and `payer_bank_name` in payment request.
 
-Example of sending GET request with cURL.
+Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
 
 

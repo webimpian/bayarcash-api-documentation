@@ -2,18 +2,21 @@
 
 ***
 
-<mark style="color:green;">`POST`</mark> `/api/v2/merchant-registrations`
+<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `console.bayar.cash/api/v2/merchant-registrations`\
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `api.console.bayar.cash/v3/merchant-registrations`
+
+***
 
 
 
 Please note this section only for **Bayarcash Enterprise Partner**. Please refer to your account manager for further details.
 
-Sending via command line using cURL.
+Example of sending <mark style="color:green;">`POST`</mark> request with cURL.
 
 
 
 ```markup
-curl -X POST https://console.bayar.cash/api/v2/merchant-registrations \
+curl -X POST https://api.console.bayar.cash/v3/merchant-registrations \
   --header 'Content-Type: application/json' \
   --header 'X-API-Key: <Enterprise_Partner_API_Key>' \
   --header 'Authorization: Bearer <Personal_Access_Token>' \
@@ -33,7 +36,7 @@ curl -X POST https://console.bayar.cash/api/v2/merchant-registrations \
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 

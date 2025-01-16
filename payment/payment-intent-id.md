@@ -10,7 +10,7 @@
 
 At any given time, you can request a payment intent ID to check on the payment status. It will return the payment intent object.
 
-Example of sending GET request with cURL.
+Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
 
 

@@ -2,11 +2,14 @@
 
 ***
 
-<mark style="color:blue;">`GET`</mark> `/api/v2/merchant-registrations/{id}`
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/merchant-registrations/{id}`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/merchant-registrations/{id}`
+
+***
 
 
 
-Check for merchant registration status. All registration will be approved manually by our account manager. Registration status consist of:
+As our enterprise partners, you can check for merchant registration status via API. All registration will be approved manually by our account manager. Registration status consist of:
 
 
 
@@ -14,7 +17,7 @@ Check for merchant registration status. All registration will be approved manual
 
 
 
-JSON structured response.
+Example of JSON structured response.
 
 
 

@@ -9,7 +9,7 @@
 
 
 
-Retrieve list of portal in Bayarcash. Example of sending GET request with cURL.
+Retrieve list of portal in Bayarcash. Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
 
 
