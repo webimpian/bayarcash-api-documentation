@@ -4,7 +4,11 @@
 
 
 
-Sample code using PHP to validate transaction callback checksum. Example below if you are using our v3 endpoint (`api.console.bayar.cash/v3`) with payload data from `callback_url`.
+Sample code using PHP to validate transaction callback checksum.
+
+This example is tailored for the v2 endpoint (`console.bayar.cash/api/v2`) and can be used to validate data received via the `return_url`.
+
+If you’re using the v3 endpoint (`api.console.bayar.cash/v3`), the same logic applies for validating payload data received from the `callback_url`.
 
 
 
@@ -38,8 +42,8 @@ Sample code using PHP to validate transaction callback checksum. Example below i
 
 
 
-For v2 endpoint (`console.bayar.cash/api/v2`), below are example with payload data from `return_url`.
 
+For v3 endpoint (`api.console.bayar.cash/v3`), below are example with payload data from `return_url`.
 
 
 ```php
