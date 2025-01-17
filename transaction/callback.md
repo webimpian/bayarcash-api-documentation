@@ -10,7 +10,7 @@
 
 
 
-If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes). Below are the status value & its corresponding label.
+If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes) from last attempts. Below are the status value & its corresponding label.
 
 
 
