@@ -3,13 +3,13 @@
 ***
 
 <mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `{return_url}` \
-<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `{return_url}`
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `{return_url}`
 
 ***
 
 
 
-If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes). Below are the status value & its corresponding label.
+If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes) from last attemps. Below are the status value & its corresponding label.
 
 
 
