@@ -15,6 +15,7 @@ You can generate your API secret key from Bayarcash portal at profile page.
 * The `ksort` function sorts the payload data by key, which is essential for checksum consistency.
 * The `implode` function concatenates the sorted payload values using a delimiter (in this case is |), forming the string for the checksum calculation.
 * The `hash_hmac` function generates the checksum using the SHA256 algorithm and your secret key.
+* **Trim the payload data** before generating the checksum to ensure no empty spaces are included in the calculation.
 
 
 
