@@ -35,6 +35,8 @@
 * [e-Mandate Enrollment](direct-debit/e-mandate-enrollment.md)
 * [e-Mandate Maintenance](direct-debit/e-mandate-maintenance.md)
 * [e-Mandate Termination](direct-debit/e-mandate-termination.md)
+* [Activate e-Mandate](direct-debit/activate-e-mandate.md)
+* [Deactivate e-Mandate](direct-debit/deactivate-e-mandate.md)
 * [Callback](direct-debit/callback.md)
 * [Mandate ID](direct-debit/mandate-id.md)
 * [Mandate Transaction ID](direct-debit/mandate-transaction-id.md)
