@@ -40,9 +40,9 @@ Example of JSON structured response.
   "status_description": "Active",
   "return_url": "http://website.net/donations/mandates/callback",
   "metadata": null,
-  "portal": "Donation Portal",
+  "portal": "Portal A",
   "merchant": {
-    "name": "Sekolah Agama.",
+    "name": "Merchant A",
     "email": "ska@gmail.com"
   }
 }
