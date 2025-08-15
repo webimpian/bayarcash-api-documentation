@@ -38,7 +38,7 @@ Example of JSON structured response.
   "payer_telephone_number": "0199991122",
   "status": 3,
   "status_description": "Active",
-  "return_url": "http://donations.net/donations/mandates/callback",
+  "return_url": "http://website.net/donations/mandates/callback",
   "metadata": null,
   "portal": "Donation Portal",
   "merchant": {
