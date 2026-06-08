@@ -63,3 +63,127 @@ Example of JSON structured response.
 }
 ```
 
+
+
+***
+
+
+
+## Payer Identity Verification <mark style="color:red;">v3</mark>
+
+
+
+FPX supports payer identity verification — checking whether the buyer/purchaser and the payer are the same person/entity, including verification of the source of funds. This is based on the payer's registered bank account number and/or their NRIC/Passport/Business Registration Number.
+
+
+
+**Requirements**
+
+* `payment_channel` **must be a single channel** — either FPX (`1`) or FPX B2B (`23`). Multi-channel payment intents are not supported for identity verification.
+* `payment_channel` is **required** when `verify_identity` is `true`.
+* `verify_identity` must be set to `true`.
+* `fpx_eaccount_number` (string, max 40 chars) — **Required**. Payer's bank account number.
+* `fpx_ebuyer_id` (string, max 40 chars) — **Required**. Payer's NRIC / Passport Number / Business Registration Number.
+
+
+
+**Example request**
+
+```json
+{
+  "payment_channel": 1,
+  "portal_key": "your-portal-key",
+  "order_number": "ORD001",
+  "amount": 100.00,
+  "payer_name": "MOHD ALI",
+  "payer_email": "m.ali@gmail.com",
+  "verify_identity": true,
+  "fpx_eaccount_number": "1234567890",
+  "fpx_ebuyer_id": "900101145678"
+}
+```
+
+
+
+**Verification result**
+
+After payment completion, the transaction callback and `GET /v3/transactions/{id}` response will include:
+
+* `payer_identity_verified` (boolean | null) — `true` if identity verified, `false` if not, `null` for non-verification transactions.
+* `fpx_extra_info` (object | null) — Detailed verification breakdown. Only present for verification transactions. Contains:
+  * `fpx_extra_info.account_type` (string) — `"CASA"` (Current/Savings Account), `"LCA"` (Loan/Credit Account), or `"Undetermined"`.
+  * `fpx_extra_info.account_number_verified` (boolean | null) — `true` if account number matches, `false` if not, `null` if undetermined.
+  * `fpx_extra_info.buyer_id_verified` (boolean | null) — `true` if buyer ID matches, `false` if not, `null` if undetermined.
+
+
+
+**Example callback response**
+
+```json
+{
+  "record_type": "transaction",
+  "transaction_id": "trx_abc123",
+  "exchange_reference_number": "1-726-210-822-807492",
+  "order_number": "ORD001",
+  "currency": "MYR",
+  "amount": 100.00,
+  "payer_name": "MOHD ALI",
+  "payer_email": "m.ali@gmail.com",
+  "status": 3,
+  "status_description": "Approved",
+  "payer_identity_verified": true,
+  "fpx_extra_info": {
+    "account_type": "CASA",
+    "account_number_verified": true,
+    "buyer_id_verified": true
+  },
+  "checksum": "..."
+}
+```
+
+
+
+***
+
+
+
+## Idempotent Requests <mark style="color:red;">v3</mark>
+
+
+
+The API supports idempotency for safely retrying requests without accidentally performing the same operation twice. This is useful when an API call is disrupted in transit and you do not receive a response.
+
+
+
+To perform an idempotent request, provide an `Idempotency-Key` header with a unique key (we recommend a UUID v4). The key is scoped to your merchant account and portal, so different portals can use the same key without conflict.
+
+
+
+Bayarcash's idempotency works by saving the resulting status code and body of the first request made for any given idempotency key. Subsequent requests with the same key and parameters return the same result. Keys expire after **24 hours**.
+
+
+
+> **Important:** If you retry a request with the same idempotency key but different request parameters, the API will return an error to prevent accidental misuse.
+
+
+
+**Example request with idempotency:**
+
+```bash
+curl https://api.console.bayar.cash/v3/payment-intents \
+  -H "Authorization: Bearer <Personal_Access_Token>" \
+  -H "Idempotency-Key: 8f14e45f-ceea-367f-a27f-c790e02b3045" \
+  -H "Content-Type: application/json" \
+  -d '{"portal_key":"xxx","payment_channel":[1],"order_number":"ORD001","amount":100.00,"payer_name":"MOHD ALI","payer_email":"m.ali@gmail.com"}'
+```
+
+
+
+**Error responses:**
+
+| Scenario                       | Status | Description                                                       |
+| ------------------------------ | ------ | ----------------------------------------------------------------- |
+| Same key, different parameters | 422    | Idempotency key already used with different request parameters    |
+| Concurrent request in progress | 409    | A request with this idempotency key is currently being processed  |
+| Key exceeds 255 characters     | 422    | Idempotency key must not exceed 255 characters                    |
+
