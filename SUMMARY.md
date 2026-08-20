@@ -22,6 +22,11 @@
 * [Payment Intent ID](payment/payment-intent-id.md)
 * [Cancel Payment Intent](payment/cancel-payment-intent.md)
 
+## DuitNow QR
+
+* [Generate DuitNow QR](duitnow-qr/generate-duitnow-qr.md)
+* [QR Status Polling](duitnow-qr/qr-status-polling.md)
+
 ## Transaction
 
 * [Callback](transaction/callback.md)
