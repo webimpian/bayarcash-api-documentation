@@ -2,28 +2,18 @@
 
 ***
 
-<mark style="color:red;">v3</mark>  <mark style="color:orange;">`PUT`</mark>  `api.console.bayar.cash/v3/portals/{portal_id}`
+<mark style="color:red;">v2</mark>  <mark style="color:orange;">`PUT`</mark>  `console.bayar.cash/api/v2/portals/{portal_id}`<br>
+<mark style="color:red;">v3</mark> <mark style="color:orange;">`PUT`</mark>  `api.console.bayar.cash/v3/portals/{portal_id}`
 
 ***
 
 
 
-Update an existing portal. The updated portal object is returned. Available request parameters are as below:
+Update an existing portal. `FPX` is always enabled. The payment channels provided must already be subscribed by the merchant. The updated portal object is returned.
 
 
 
-| Name                                                  | Description                                                                                                                     |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `name`                                                | Required. The portal name. Must be unique for the merchant.                                                                      |
-| `website_url`                                         | Optional. A valid URL for the portal website.                                                                                   |
-| `merchant_transaction_notification_email`             | Required. A valid email address to receive transaction notifications.                                                          |
-| `secondary_merchant_transaction_notification_email`   | Optional. A secondary email address to receive transaction notifications.                                                       |
-| `payment_channels`                                    | An array of payment channel IDs to enable on the portal. `FPX` is always included. Must be subscribed by the merchant.          |
-| `enabled_sms_on_successful_transaction`               | Optional. Set to `1` to enable SMS notification on a successful transaction.                                                     |
-| `split_payment_enabled`                               | Optional. Set to `1` to enable split payment.                                                                                   |
-| `split_payment_merchants`                             | Required when `split_payment_enabled` is `1`. An array (max 3) of split payment merchants — each with `merchant_email`, `type` (`percentage`/`fix_amount`) and `value`. |
-| `bank_accounts`                                       | Required when the Manual Bank Transfer channel is enabled. An array of bank accounts — each with `account_no`, `bank_id` and `payment_gateway_id`. |
-| `cashier_id`                                          | Required when the DuitNow QR channel is enabled.                                                                                |
+<table data-full-width="true"><thead><tr><th width="269">Name</th><th width="546">Description</th><th width="121">Type</th><th>Condition</th></tr></thead><tbody><tr><td><code>name</code></td><td>Portal name. Must be unique for the merchant</td><td><code>string</code></td><td><mark style="color:red;">Required</mark></td></tr><tr><td><code>merchant_transaction_notification_email</code></td><td>Email address to receive transaction notifications</td><td><code>string</code></td><td><mark style="color:red;">Required</mark></td></tr><tr><td><code>url</code></td><td>Portal website URL (named <code>website_url</code> on v3)</td><td><code>string</code></td><td>Optional</td></tr><tr><td><code>secondary_merchant_transaction_notification_email</code></td><td>Secondary notification email - only available on v3</td><td><code>string</code></td><td>Optional</td></tr><tr><td><code>payment_channels</code></td><td>Array of payment channel IDs to enable. Refer payment channel page</td><td><code>array</code></td><td>Optional</td></tr><tr><td><code>bank_accounts</code></td><td>Required when Manual Bank Transfer (2) is enabled. Array of <code>{ account_no, bank_id, payment_gateway_id }</code></td><td><code>array</code></td><td>Optional</td></tr><tr><td><code>enabled_sms_on_successful_transaction</code></td><td>Enable SMS notification on a successful transaction</td><td><code>boolean</code></td><td>Optional</td></tr><tr><td><code>split_payment_enabled</code></td><td>Enable split payment - only available on v3</td><td><code>boolean</code></td><td>Optional</td></tr><tr><td><code>split_payment_merchants</code></td><td>Array of <code>{ merchant_email, type (fix_amount/percentage), value }</code> - only available on v3</td><td><code>array</code></td><td>Optional</td></tr><tr><td><code>cashier_id</code></td><td>Required when DuitNow QR (6) is enabled - only available on v3</td><td><code>integer</code></td><td>Optional</td></tr><tr><td><code>enable_incoming_transaction_webhook</code></td><td>Enable incoming transaction webhook - only available on v2</td><td><code>boolean</code></td><td>Optional</td></tr></tbody></table>
 
 ***
 
@@ -34,15 +24,15 @@ Example of sending <mark style="color:orange;">`PUT`</mark> request with cURL.
 
 
 ```markup
-curl -X PUT https://api.console.bayar.cash/v3/portals/cbp_aZ9Klm \
+curl -X PUT https://api.console.bayar.cash/v3/portals/prt_PGMo1q \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>' \
-  --data '{
-    "name": "Payment Link",
-    "website_url": "https://bcl.my/",
-    "merchant_transaction_notification_email": "hai@bayarcash.com",
-    "payment_channels": [3, 4]
-  }'
+  --data-raw '{
+        "name": "Payment Link",
+        "website_url": "https://bcl.my/",
+        "merchant_transaction_notification_email": "hai@bayarcash.com",
+        "payment_channels": [3, 4]
+      }'
 ```
 
 
@@ -53,17 +43,14 @@ Example of JSON structured response.
 
 ```json
 {
-    "id": "cbp_aZ9Klm",
+    "id": "prt_PGMo1q",
     "created_at": "2024-10-19 12:47:07",
     "portal_key": "8baf5e234dd88c2d1375d5f386d78d8f",
     "portal_name": "Payment Link",
-    "website_url": "https://bcl.my/",
+    "url": "https://bcl.my/",
     "transaction_notification_email": "hai@bayarcash.com",
     "secondary_transaction_notification_email": null,
     "custom_payment_button_text": null,
-    "enabled_sms_on_successful_transaction": 0,
-    "split_payment_enabled": false,
-    "split_payment_merchants": [],
     "payment_channels": [
         {
             "id": 1,
@@ -80,11 +67,6 @@ Example of JSON structured response.
             "code": "FpxLineOfCredit",
             "name": "FPX Line of Credit"
         }
-    ],
-    "merchant": {
-        "id": "usr_kP3xQ2",
-        "name": "Web Impian Sdn. Bhd.",
-        "email": "webimpian.merchant@gmail.com"
-    }
+    ]
 }
 ```

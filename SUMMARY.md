@@ -22,6 +22,11 @@
 * [Payment Intent ID](payment/payment-intent-id.md)
 * [Cancel Payment Intent](payment/cancel-payment-intent.md)
 
+## DuitNow QR
+
+* [Generate DuitNow QR](duitnow-qr/generate-duitnow-qr.md)
+* [QR Status Polling](duitnow-qr/qr-status-polling.md)
+
 ## Transaction
 
 * [Callback](transaction/callback.md)
@@ -42,10 +47,10 @@
 * [Activate e-Mandate](direct-debit/activate-e-mandate.md)
 * [Deactivate e-Mandate](direct-debit/deactivate-e-mandate.md)
 * [Callback](direct-debit/callback.md)
-* [All Mandates](direct-debit/all-mandates.md)
 * [Mandate ID](direct-debit/mandate-id.md)
-* [All Mandate Transactions](direct-debit/all-mandate-transactions.md)
+* [All Mandates](direct-debit/all-mandates.md)
 * [Mandate Transaction ID](direct-debit/mandate-transaction-id.md)
+* [All Mandate Transactions](direct-debit/all-mandate-transactions.md)
 
 ## Enterprise Partner
 

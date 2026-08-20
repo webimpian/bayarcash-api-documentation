@@ -12,12 +12,12 @@ Retrieve a paginated list of Direct Debit (e-Mandate) transactions, covering bot
 
 
 
-| Name                        | Description                                                                                                |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `order_number`              |                                                                                                            |
-| `status`                    | Please [refer this page](https://api.webimpian.support/bayarcash/direct-debit/callback) for status code    |
-| `exchange_reference_number` |                                                                                                            |
-| `payer_email`               |                                                                                                            |
+| Name                        | Description                                                                                              |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `order_number`              |                                                                                                          |
+| `status`                    | Please [refer this page](https://api.webimpian.support/bayarcash/direct-debit/callback) for status code  |
+| `exchange_reference_number` |                                                                                                          |
+| `payer_email`               | Filter transactions by payer email                                                                       |
 
 ***
 
@@ -52,8 +52,6 @@ Example of JSON structured response.
             "order_number": "DDD-24060323",
             "currency": "MYR",
             "amount": 10,
-            "platform_fees": 0,
-            "nett_amount": 10,
             "exchange_reference_number": "1-719-482-202-565809",
             "exchange_transaction_id": "2406271756420574",
             "payer_bank_name": "SBI Bank A",
@@ -71,7 +69,6 @@ Example of JSON structured response.
             },
             "portal": "Portal ABC",
             "merchant": {
-                "id": "usr_kP3xQ2",
                 "name": "Web Impian Sdn. Bhd.",
                 "email": "webimpian.merchant@gmail.com"
             },

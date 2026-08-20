@@ -19,7 +19,5 @@ You can generate your API secret key from Bayarcash portal at profile page.
 
 
 
-{% hint style="success" %}
-Note: The checksum value and checksum validation are optional, but it is recommended for enhanced security.
-{% endhint %}
+> Note: The checksum value and checksum validation are optional, but it is recommended for enhanced security.
 

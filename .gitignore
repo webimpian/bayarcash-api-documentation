@@ -1,2 +1,6 @@
 _book/
 node_modules/
+book.json
+package*.json
+/.idea
+.DS_Store

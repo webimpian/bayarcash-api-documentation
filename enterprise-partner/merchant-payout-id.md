@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/payouts/{payout_id}`\
+<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/payouts/{payout_id}`<br>
 <mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/payouts/{payout_id}`&#x20;
 
 ***
