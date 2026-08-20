@@ -11,12 +11,21 @@
 
 * [Portal List](portal/list.md)
 * [Create Portal](portal/create.md)
+* [Portal ID](portal/show.md)
+* [Update Portal](portal/update.md)
+* [Delete Portal](portal/delete.md)
 
 ## Payment
 
 * [Payment Channel](payment/payment-channel.md)
 * [Payment Intent](payment/payment-intent.md)
 * [Payment Intent ID](payment/payment-intent-id.md)
+* [Cancel Payment Intent](payment/cancel-payment-intent.md)
+
+## DuitNow QR
+
+* [Generate DuitNow QR](duitnow-qr/generate-duitnow-qr.md)
+* [QR Status Polling](duitnow-qr/qr-status-polling.md)
 
 ## Transaction
 
@@ -39,7 +48,9 @@
 * [Deactivate e-Mandate](direct-debit/deactivate-e-mandate.md)
 * [Callback](direct-debit/callback.md)
 * [Mandate ID](direct-debit/mandate-id.md)
+* [All Mandates](direct-debit/all-mandates.md)
 * [Mandate Transaction ID](direct-debit/mandate-transaction-id.md)
+* [All Mandate Transactions](direct-debit/all-mandate-transactions.md)
 
 ## Enterprise Partner
 

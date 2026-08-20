@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@gitbook-ng/gitbook": "^3.3.6",
+    "gitbook-plugin-hints": "^1.0.2"
+  }
+}

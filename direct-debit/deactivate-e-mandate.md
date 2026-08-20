@@ -2,7 +2,7 @@
 
 ***
 
-<mark style="color:red;">v2</mark> <mark style="color:red;">`PATCH`</mark>  `console.bayar.cash/api/v2/mandates/{mandate_id}/deactivate`\
+<mark style="color:red;">v2</mark> <mark style="color:red;">`PATCH`</mark>  `console.bayar.cash/api/v2/mandates/{mandate_id}/deactivate`<br>
 <mark style="color:red;">v3</mark> <mark style="color:red;">`PATCH`</mark>  `api.console.bayar.cash/v3/mandates/{mandate_id}/deactivate`
 
 ***
