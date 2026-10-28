@@ -6,6 +6,10 @@
 
 ***
 
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
+
 
 
 At any given time, you can request a transaction to check on the current status. It will return the transaction object. Available query parameters are as below:

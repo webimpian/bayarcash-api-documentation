@@ -2,17 +2,19 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `{return_url}`<br>
-<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `{return_url}`<br>
-<mark style="color:red;">v3</mark>  <mark style="color:green;">`POST`</mark>  `{callback_url}`
+<mark style="color:red;">v2</mark> <mark style="color:green;">`POST`</mark> `{return_url}`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `{return_url}`\
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark> `{callback_url}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes) from last attempts. Below are the status value & its corresponding label.
-
-
 
 | Status Code | Status Description |
 | ----------- | ------------------ |
@@ -22,15 +24,11 @@ If your server accept a callback from Bayarcash, make sure the response return `
 | 3           | Success            |
 | 4           | Cancelled          |
 
-
-
 ***
 
 ### Transaction
 
 Example of JSON structured request.
-
-
 
 ```json
 {
@@ -51,15 +49,11 @@ Example of JSON structured request.
 }
 ```
 
-
-
 ***
 
 ### Transaction Receipt
 
 Example of JSON structured request.
-
-
 
 ```json
 {
@@ -75,4 +69,3 @@ Example of JSON structured request.
     "checksum": string
 }
 ```
-
