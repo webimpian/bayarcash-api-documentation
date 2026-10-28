@@ -1,17 +1,18 @@
-# Merchant Settlement Summary
+---
+noIndex: true
+noRobotsIndex: true
+---
+
+# All Merchant Payouts
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/payouts`<br>
-<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/payouts`&#x20;
+<mark style="color:red;">v2</mark> <mark style="color:blue;">`GET`</mark> `console.bayar.cash/api/v2/payouts`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/payouts`
 
 ***
-
-
 
 Enterprise partners are able to retrieve settlement summary for all merchants registered from their API key. Example of JSON structured response.
-
-
 
 ```json
 {
@@ -67,4 +68,3 @@ Enterprise partners are able to retrieve settlement summary for all merchants re
     }
 }
 ```
-
