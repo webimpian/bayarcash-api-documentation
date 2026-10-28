@@ -2,10 +2,14 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:red;">`DELETE`</mark>  `console.bayar.cash/api/v2/payment-intents/{payment_intent_id}`<br>
-<mark style="color:red;">v3</mark> <mark style="color:red;">`DELETE`</mark>  `api.console.bayar.cash/v3/payment-intents/{payment_intent_id}`
+<mark style="color:red;">v2</mark> <mark style="color:red;">`DELETE`</mark> `console.bayar.cash/api/v2/payment-intents/{payment_intent_id}`\
+<mark style="color:red;">v3</mark> <mark style="color:red;">`DELETE`</mark> `api.console.bayar.cash/v3/payment-intents/{payment_intent_id}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
@@ -15,19 +19,13 @@ Cancel an existing payment intent so that no further payment can be made against
 
 Example of sending <mark style="color:red;">`DELETE`</mark> request with cURL.
 
-
-
 ```markup
 curl -X DELETE https://api.console.bayar.cash/v3/payment-intents/pi_PGPP2G \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
 
-
-
 Example of JSON structured response when the payment intent is successfully cancelled. The cancelled payment intent object is returned.
-
-
 
 ```json
 {
@@ -51,11 +49,7 @@ Example of JSON structured response when the payment intent is successfully canc
 }
 ```
 
-
-
 Example of JSON structured response when the payment intent cannot be cancelled (for example, it has already been paid or a payment attempt is still pending).
-
-
 
 ```json
 {
