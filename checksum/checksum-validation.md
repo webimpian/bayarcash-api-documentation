@@ -2,13 +2,15 @@
 
 ***
 
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
-To ensure a secured request to Bayarcash API, you need to generate a checksum value using your API secret key. This checksum must be included in your request to validate its integrity and authenticity.&#x20;
+
+To ensure a secured request to Bayarcash API, you need to generate a checksum value using your API secret key. This checksum must be included in your request to validate its integrity and authenticity.
 
 You can generate your API secret key from Bayarcash portal at profile page.
-
-
 
 * Ensure the API secret key is securely stored and not exposed in your client-side code.
 * Always verify the checksum in the callback data to ensure data integrity and authenticity,
@@ -17,7 +19,4 @@ You can generate your API secret key from Bayarcash portal at profile page.
 * The `hash_hmac` function generates the checksum using the SHA256 algorithm and your secret key.
 * **Trim the payload data** before generating the checksum to ensure no empty spaces are included in the calculation.
 
-
-
 > Note: The checksum value and checksum validation are optional, but it is recommended for enhanced security.
-

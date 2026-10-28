@@ -2,6 +2,10 @@
 
 ***
 
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
+
 
 
 Sample code using PHP to validate transaction callback checksum.
@@ -9,8 +13,6 @@ Sample code using PHP to validate transaction callback checksum.
 This example is tailored for the v2 endpoint (`console.bayar.cash/api/v2`) and can be used to validate data received via the `return_url`.
 
 If you’re using the v3 endpoint (`api.console.bayar.cash/v3`), the same logic applies for validating payload data received from the `callback_url`.
-
-
 
 ```php
 <?php
@@ -40,11 +42,7 @@ If you’re using the v3 endpoint (`api.console.bayar.cash/v3`), the same logic 
     $validResponse = hash_hmac('sha256', $payloadString, $secretKey) === $callbackChecksum;  // Validate checksum
 ```
 
-
-
-
 For v3 endpoint (`api.console.bayar.cash/v3`), below are example with payload data from `return_url`.
-
 
 ```php
 <?php
@@ -69,4 +67,3 @@ For v3 endpoint (`api.console.bayar.cash/v3`), below are example with payload da
     
     $validResponse = hash_hmac('sha256', $payloadString, $secretKey) === $callbackChecksum;  // Validate checksum
 ```
-
