@@ -2,26 +2,24 @@
 
 ***
 
-<mark style="color:red;">v2</mark><mark style="color:red;">`DELETE`</mark>  `console.bayar.cash/api/v2/mandates/{mandate_id}`<br>
-<mark style="color:red;">v3</mark><mark style="color:red;">`DELETE`</mark>  `api.console.bayar.cash/v3/mandates/{mandate_id}`
+<mark style="color:red;">v2</mark><mark style="color:red;">`DELETE`</mark> `console.bayar.cash/api/v2/mandates/{mandate_id}`\
+<mark style="color:red;">v3</mark><mark style="color:red;">`DELETE`</mark> `api.console.bayar.cash/v3/mandates/{mandate_id}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 Terminate an existing Direct Debit (e-Mandate). The mandate must be `active`. The `order_number` is taken from the mandate and does not need to be supplied.
 
-
-
 <table data-full-width="true"><thead><tr><th>Name</th><th>Description</th><th>Type</th><th>Condition</th></tr></thead><tbody><tr><td><code>application_reason</code></td><td></td><td><code>string</code></td><td><mark style="color:red;">Required</mark></td></tr><tr><td><code>link_expired_at</code></td><td>Mandate link expiry datetime (<code>Y-m-d H:i:s</code>). Defaults to 1 hour from creation</td><td><code>string</code></td><td>Optional</td></tr><tr><td><code>platform_id</code></td><td></td><td><code>string</code></td><td>Optional</td></tr><tr><td><code>checksum</code></td><td></td><td><code>string</code></td><td>Optional</td></tr></tbody></table>
 
 ***
 
-
-
 Example of sending <mark style="color:red;">`DELETE`</mark> request with cURL.
-
-
 
 ```markup
 curl -X DELETE https://api.console.bayar.cash/v3/mandates/md_MGWpzp \
@@ -32,11 +30,7 @@ curl -X DELETE https://api.console.bayar.cash/v3/mandates/md_MGWpzp \
       }'
 ```
 
-
-
 Example of JSON structured response.
-
-
 
 ```json
 {
@@ -55,4 +49,3 @@ Example of JSON structured response.
     "url": "https://console.bayar.cash/payment-intent/pi_pGwZaY"
 }
 ```
-

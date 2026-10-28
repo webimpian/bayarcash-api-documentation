@@ -2,24 +2,24 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `{return_url}` \
-<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `{return_url}`
+<mark style="color:red;">v2</mark> <mark style="color:green;">`POST`</mark> `{return_url}`\
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark> `{return_url}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 If your server accept a callback from Bayarcash, make sure the response return `200` status code. Maximum retry from our side is 5 attempts every 300 seconds (5 minutes) from last attemps. Below are the status value & its corresponding label.
-
-
 
 ***
 
 ### Authorization
 
 Example of JSON structured request. Applicable to enrollment, maintenance and termination.
-
-
 
 ```json
 {
@@ -41,15 +41,11 @@ Example of JSON structured request. Applicable to enrollment, maintenance and te
 }
 ```
 
-
-
 ***
 
 ### Bank Approval
 
 Example of JSON structured request. Applicable to enrollment, maintenance and termination.
-
-
 
 ```json
 {
@@ -67,15 +63,11 @@ Example of JSON structured request. Applicable to enrollment, maintenance and te
 }
 ```
 
-
-
 ***
 
 ### Transaction
 
 Example of JSON structured request. Only applicable to enrollment.
-
-
 
 ```json
 {
@@ -93,4 +85,3 @@ Example of JSON structured request. Only applicable to enrollment.
     "checksum": string
 }
 ```
-

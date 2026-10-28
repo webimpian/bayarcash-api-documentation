@@ -2,30 +2,28 @@
 
 ***
 
-<mark style="color:red;">v3</mark>  <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/mandates/transactions?{query_parameter}`
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/mandates/transactions?{query_parameter}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 Retrieve a paginated list of Direct Debit (e-Mandate) transactions, covering both mandate application and deduction transactions. Available query parameters are as below:
 
-
-
-| Name                        | Description                                                                                              |
-| --------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `order_number`              |                                                                                                          |
-| `status`                    | Please [refer this page](https://api.webimpian.support/bayarcash/direct-debit/callback) for status code  |
-| `exchange_reference_number` |                                                                                                          |
-| `payer_email`               | Filter transactions by payer email                                                                       |
+| Name                        | Description                                                                                             |
+| --------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `order_number`              |                                                                                                         |
+| `status`                    | Please [refer this page](https://api.webimpian.support/bayarcash/direct-debit/callback) for status code |
+| `exchange_reference_number` |                                                                                                         |
+| `payer_email`               | Filter transactions by payer email                                                                      |
 
 ***
 
-
-
 Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
-
-
 
 ```markup
 curl -X GET https://api.console.bayar.cash/v3/mandates/transactions?order_number=DDD-24060323 \
@@ -33,11 +31,7 @@ curl -X GET https://api.console.bayar.cash/v3/mandates/transactions?order_number
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
 
-
-
 Example of JSON structured response.
-
-
 
 ```json
 {

@@ -1,5 +1,6 @@
 ---
 layout:
+  width: default
   title:
     visible: true
   description:
@@ -10,22 +11,32 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # e-Mandate Enrollment
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:green;">`POST`</mark>  `console.bayar.cash/api/v2/mandates`<br>
-<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark>  `api.console.bayar.cash/v3/mandates`
+<mark style="color:red;">v2</mark> <mark style="color:green;">`POST`</mark> `console.bayar.cash/api/v2/mandates`\
+<mark style="color:red;">v3</mark> <mark style="color:green;">`POST`</mark> `api.console.bayar.cash/v3/mandates`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 Initialize enrollment request to Bayarcash. Make sure your account is enabled for Direct Debit payment channel.
-
-
 
 ***
 
@@ -33,11 +44,7 @@ Initialize enrollment request to Bayarcash. Make sure your account is enabled fo
 
 ***
 
-
-
 Example of sending <mark style="color:green;">`POST`</mark> request with cURL.
-
-
 
 ```markup
 curl -X POST https://api.console.bayar.cash/v3/mandates \
@@ -64,11 +71,7 @@ curl -X POST https://api.console.bayar.cash/v3/mandates \
       }'
 ```
 
-
-
 Example of JSON structured response.
-
-
 
 ```json
 {
@@ -87,4 +90,3 @@ Example of JSON structured response.
     "url": "https://console.bayar.cash/payment-intent/pi_pGwZaY"
 }
 ```
-

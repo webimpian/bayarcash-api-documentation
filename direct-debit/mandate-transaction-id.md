@@ -2,16 +2,18 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/mandates/transactions/{transaction_id}`<br>
-<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/mandates/transactions/{transaction_id}`
+<mark style="color:red;">v2</mark> <mark style="color:blue;">`GET`</mark> `console.bayar.cash/api/v2/mandates/transactions/{transaction_id}`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/mandates/transactions/{transaction_id}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
 Example of JSON structured response.
-
-
 
 ```json
 {
@@ -73,4 +75,3 @@ Example of JSON structured response.
     }
 }
 ```
-

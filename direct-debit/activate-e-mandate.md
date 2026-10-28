@@ -1,21 +1,23 @@
-# Update Inactive e-Mandate Status to Active
+# Activate e-Mandate
 
 ***
 
-<mark style="color:red;">v2</mark> <mark style="color:red;">`PATCH`</mark>  `console.bayar.cash/api/v2/mandates/{mandate_id}/activate`<br>
-<mark style="color:red;">v3</mark> <mark style="color:red;">`PATCH`</mark>  `api.console.bayar.cash/v3/mandates/{mandate_id}/activate`
+<mark style="color:red;">v2</mark> <mark style="color:red;">`PATCH`</mark> `console.bayar.cash/api/v2/mandates/{mandate_id}/activate`\
+<mark style="color:red;">v3</mark> <mark style="color:red;">`PATCH`</mark> `api.console.bayar.cash/v3/mandates/{mandate_id}/activate`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
+
 
 
 At any given time, you can request to update any `inactive` Direct Debit to `active`.
 
 > Notes: This action will re-activate and include the Direct Debit in the next deduction. This action only allowed for the Direct Debit with status `inactive`.
 
-
 Example of JSON structured response.
-
-
 
 ```json
 {
@@ -47,4 +49,3 @@ Example of JSON structured response.
   }
 }
 ```
-
