@@ -2,10 +2,14 @@
 
 ***
 
-<mark style="color:red;">v2</mark>  <mark style="color:blue;">`GET`</mark>  `console.bayar.cash/api/v2/portals/{portal_id}`<br>
-<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark>  `api.console.bayar.cash/v3/portals/{portal_id}`
+<mark style="color:red;">v2</mark> <mark style="color:blue;">`GET`</mark> `console.bayar.cash/api/v2/portals/{portal_id}`\
+<mark style="color:red;">v3</mark> <mark style="color:blue;">`GET`</mark> `api.console.bayar.cash/v3/portals/{portal_id}`
 
 ***
+
+{% hint style="danger" %}
+We have migrate our API reference site to new address. Please use new website for latest update here: [https://api-reference.bayarcash.com/](https://api-reference.bayarcash.com/#description/introduction)
+{% endhint %}
 
 
 
@@ -13,19 +17,13 @@ Retrieve a single portal by its ID. It will return the portal object together wi
 
 Example of sending <mark style="color:blue;">`GET`</mark> request with cURL.
 
-
-
 ```markup
 curl -X GET https://api.console.bayar.cash/v3/portals/prt_PGMo1q \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer <Personal_Access_Token>'
 ```
 
-
-
 Example of JSON structured response.
-
-
 
 ```json
 {
